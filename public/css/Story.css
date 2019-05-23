@@ -1,0 +1,271 @@
+
+.active-stories {
+	width: 96px !important;
+}
+
+.h-section {
+	overflow: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+#h-introframe{
+	margin: 0 !important;
+	padding: 0 !important;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+}
+
+.h-text-intro{
+	width: 100%;
+	text-align: center;
+	padding-top: 15.5vh;
+	letter-spacing: 2px;
+	font-weight: 700;
+	padding-left: 3vh;
+	padding-right: 3vh;
+}
+.h-text-intro h2{
+	font-weight: 700;
+}
+.header-nav{
+	margin-top: 22vh;
+	font-size: 70px;
+	text-align: center;
+	letter-spacing: 0px;
+	font-weight: 300;
+	padding-left: 3vh;
+	padding-right: 3vh;
+}
+.header-nav a{
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	color: white;
+	opacity: 1;
+}
+.header-nav a:hover{
+	opacity: 1.3;
+	color: white;
+/*	text-decoration: none;*/
+}
+.header-nav a span {
+    transition: all 1s ease-out;
+    position: absolute;
+    width: 100%;
+    bottom: 4px;
+    height: 5px;
+    left: 0;
+    opacity: 1;
+}
+.nav-spacer{
+	display: inline-block;
+    width: 3vh;
+    height: 2px;
+    background: white;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    opacity: 0.7;
+}
+.h-nav-description{
+	transition: opacity 300ms ease;
+    text-align: center;
+    margin-top: 18vh;
+    width: 100%;
+    max-width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+#h-nav-description-up{
+	z-index: 1;
+}
+#h-nav-description-down{
+	opacity: 0;
+}
+
+#arrow {
+	animation: arrowMovements 1000ms infinite alternate ease-in-out;
+	font-size: 28px;
+	margin-top: 25px;
+	opacity: 0.6;
+}
+#arrow:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+@keyframes arrowMovements {
+	0% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateY(-8px);
+	}
+}
+.container-header{
+	padding-top: 12vh;
+	padding-bottom: 7vh;
+	text-align: center;
+	font-weight: 400;
+}
+.container-header h1{
+	font-size: 22px;
+	letter-spacing: 3px;
+}
+.container-header h2{
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 2vh;
+}
+
+.infs .row{
+	padding: 0vh 5vh;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+.card{
+	border: none;
+}
+.frameform{
+	padding-left: 10vh !important;
+	padding-right: 10vh !important;
+}
+.frameform label{
+	color: white;
+}
+.buttonframe{
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	text-align: center; 
+}
+#id_container_story{
+	padding-top: 4vh !important;
+	padding-bottom: 4vh !important;
+	text-align: center;
+}
+#id_container_story h2{
+	margin-left: 2vh;
+	margin-right: 2vh;
+}
+.frameform{
+	background-position: center;
+	background-size: cover;
+}	
+.firstrow{
+	margin-top: 5vh;
+}
+.btn-dark{
+	background-color: black !important;
+	opacity: 1;
+
+}
+input, textarea, select, button{
+	border-radius: 0px !important;
+	border: none !important;
+}
+button{
+	padding: 2vh 5vh !important;
+}
+.valid-feedback, .invalid-feedback{
+	color: white !important;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 874px) {
+ 	.nav-spacer{
+ 		width: 20px;
+ 		margin-bottom: 15px;
+ 	}
+ 	.header-nav{
+ 		font-size: 60px;
+ 	}
+}
+@media only screen and (max-width: 770px) {
+ 	.nav-spacer{
+ 		width: 15px;
+ 		margin-bottom: 10px;
+ 	}
+ 	.header-nav{
+ 		font-size: 50px;
+ 	}
+}
+@media only screen and (max-width: 641px) {
+ 	.header-nav{
+ 		font-size: 42px;
+ 	}
+ 	 .nav-spacer{
+ 		width: 15px;
+ 		margin-bottom: 12px;
+ 	}
+}
+@media only screen and (max-width: 576px) {
+ 	.nav-spacer{
+ 		width: 12px;
+ 		margin-bottom: 10px;
+ 	}
+ 	.header-nav{
+ 		font-size: 35px;
+ 	}
+ 	.h-text-intro h2{
+ 		font-size: 25px;
+ 	}
+ 	.nav-spacer{
+ 		margin-bottom: 15px;
+ 	}
+}
+@media only screen and (max-width: 470px) {
+ 	.nav-spacer{
+ 		width: 10px;
+ 		margin-bottom: 5px;
+ 	}
+ 	.header-nav{
+ 		font-size: 29px;
+ 	}
+ 	.h-text-intro h2{
+ 		font-size: 25px;
+ 	}
+ 	.nav-spacer{
+ 		margin-bottom: 15px;
+ 	}
+ 	#id_container_story h2{
+ 		font-size: 30px;
+ 	}
+}
+@media only screen and (max-width: 417px) {
+ 	.nav-spacer{
+ 		width: 8px;
+ 		margin-bottom: 5px;
+ 	}
+ 	.header-nav{
+ 		font-size: 25px;
+ 	}
+ 	.h-text-intro h2{
+ 		font-size: 23px;
+ 	}
+ 	.frameform{
+ 		padding-left: 10vh;
+ 		padding-bottom: 10vh;
+ 	}
+}
+@media only screen and (max-width: 361px) {
+ 	.nav-spacer{
+ 		width: 5px;
+ 	}
+ 	.header-nav{
+ 		font-size: 20px;
+ 	}
+ 	.h-text-intro h2{
+ 		font-size: 19px;
+ 	}
+ 	.header-nav{
+ 		margin-top: 15vh;
+ 	}
+ 	 	#id_container_story h2{
+ 		font-size: 27px;
+ 	}
+}

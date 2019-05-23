@@ -1,0 +1,59 @@
+.dangerzone img{
+	width: 100%;
+}
+.dangerframe{
+	margin: 0 !important;
+	padding: 0 !important;
+
+}
+.dangerpic{
+ 	margin: 0 !important;
+	padding: 0 !important;
+}
+.row{
+	margin: 0 !important;
+	padding: 0 !important;	
+}
+.about{
+	margin-top: 0px !important;
+}
+.dangertitle h2{
+	text-align: center;
+	padding-top: 15vh;
+	letter-spacing: 2px;
+	margin-bottom: 3vh;
+}
+.dangertitle{
+	margin: 0 !important;
+	background-color: #161513;
+	color: white;
+	padding-bottom: 7vh;
+}
+@keyframes arrowMovements {
+	0% {
+		transform: translateX(-2px);
+	}
+	100% {
+		transform: translateX(4px);
+	}
+}
+#arrow {
+	animation: arrowMovements 1000ms infinite alternate ease-in-out;
+	font-size: 25px;
+	opacity: 0.6;
+	color: red;
+}
+#arrow:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.dangertitle p{
+	text-align: center;
+}
+.dangertitle i{
+	margin-top: 7px;
+}
+
+.dangerzone-active {
+	width: 0 !important;
+}

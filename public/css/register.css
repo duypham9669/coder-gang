@@ -1,0 +1,105 @@
+.register {
+    float: left;
+    width: 100%;
+    padding-top: 25vh;
+    overflow: auto;
+}
+
+.register-container {
+    width: 28%;
+    margin: 0 auto;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.212);
+    margin-bottom: 15vh;
+}
+
+.register-container form {
+    padding: 30px 30px 80px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+}
+
+.custom-select {
+    border-radius: 0 !important;
+}
+
+#resetyourpass {
+    margin-bottom: 30px;
+}
+
+#sended {
+    text-align: center;
+}
+
+.register-container h1 {
+    text-align: left;
+    color: white;
+    background-color: black;
+    margin-bottom: -0.5rem;
+    padding: 20px 20px;
+    font-size: 30px;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.signup-btn {
+    float: right;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background: #000;
+}
+
+.s-nav-active {
+	position: absolute;
+	top: 85vh;
+}
+
+.active-1 {
+    width: 0px !important;
+}
+
+.Terms {
+    transition: 0.5s;
+}
+
+.Terms:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+.active-donate {
+    width: 196px !important;
+}
+
+@media only screen and (max-width: 1350px) {
+    .register-container {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .register-container {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .register-container {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .register-container {
+        width: 75%;
+    }
+}
+
+#reset {
+    margin-top: 100px;
+}
